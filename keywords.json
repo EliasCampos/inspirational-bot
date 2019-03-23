@@ -1,0 +1,32 @@
+{
+  "collections": [
+    "inspirations",
+    "motivations",
+    "encourages"
+  ],
+  "command_correspondence": {
+    "inspirations": "inspire",
+    "motivations": "motivate",
+    "encourages": "encourage"
+  },
+  "bot_speech_begin": {
+    "refer": [
+      "<author> once said",
+      "As said <author>",
+      "On <author> opinion"
+    ],
+    "self": [
+      "You know",
+      "Remember",
+      "Keep in mind",
+      "I use to say",
+      null
+    ]
+  },
+  "bot_explain": {
+    "start": "Hello!",
+    "help": "I can attempt to /inspire, /motivate or /encourage you",
+    "not_command": "I wanna /help you. Say me, what can I do for you?",
+    "unknown_command": "Sorry, I dont know how to do this"
+  }
+}
