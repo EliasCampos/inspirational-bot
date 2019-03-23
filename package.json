@@ -1,0 +1,27 @@
+{
+  "name": "inspirational-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot which helps you in your need",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliasCampos/inspirational-bot.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Elias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EliasCampos/inspirational-bot/issues"
+  },
+  "homepage": "https://github.com/EliasCampos/inspirational-bot#readme",
+  "dependencies": {
+    "mongodb": "^3.2.1",
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
